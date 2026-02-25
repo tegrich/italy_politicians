@@ -1,1 +1,2 @@
-# italy_politicians
+# italy_politicians 
+Oggetto del Progetto: Tracciare il profilo personale, educativo, ed economico della totalità dei politici che hanno rivestito un ruolo ministeriale nei governi dalla nascita del Regno d'Italia nel 1861 fino ad oggi.
