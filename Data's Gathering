@@ -1,0 +1,11 @@
+Data's Gathering:
+
+- Prime Ministers:
+
+SELECT ?item ?itemLabel
+WHERE {
+?item wdt:P31 wd:Q5;
+      wdt:P39 wd:Q796897.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+ }
+LIMIT 50
