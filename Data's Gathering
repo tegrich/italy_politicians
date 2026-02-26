@@ -1,6 +1,6 @@
 Data's Gathering:
 
-- Prime Ministers:
+- List of Prime Ministers:
 
 SELECT ?item ?itemLabel
 WHERE {
@@ -9,3 +9,17 @@ WHERE {
 SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
  }
 LIMIT 50
+
+- Party's Origin of Prime Ministers in cronological order:
+
+SELECT DISTINCT ?premier ?premierLabel ?partitoLabel ?inizio ?fine
+WHERE {
+  ?premier p:P39 ?statement .
+  ?statement ps:P39 wd:Q796897 .
+  OPTIONAL { ?statement pq:P580 ?inizio . }
+  OPTIONAL { ?statement pq:P582 ?fine . }
+  OPTIONAL { ?premier wdt:P102 ?partito . }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "it". }
+}
+ORDER BY ?inizio
+  
