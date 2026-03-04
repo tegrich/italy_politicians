@@ -22,7 +22,7 @@ WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "it". }
 }
 ORDER BY ?inizio
-
+  
 - Total of ministers and their birth gender, organized in cronological order by governement:
 
 SELECT DISTINCT ?item ?itemLabel ?genderLabel ?caricaLabel ?inizio
@@ -43,7 +43,8 @@ ORDER BY ?inizio
 
 - Total of ministers and their party's origin in cronological order:
 
-SELECT DISTINCT ?item ?itemLabel ?partitoLabel ?caricaLabel ?inizio WHERE {
+SELECT DISTINCT ?item ?itemLabel ?partitoLabel ?caricaLabel ?inizio 
+WHERE {
   ?item p:P39 ?statement .
   ?statement ps:P39 ?carica .
   ?carica wdt:P279* wd:Q3858501 .
