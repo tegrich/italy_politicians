@@ -2,13 +2,18 @@ Data's Gathering:
 
 - List of Prime Ministers:
 
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?item ?itemLabel
 WHERE {
 ?item wdt:P31 wd:Q5;
       wdt:P39 wd:Q796897.
-SERVICE wikibase:label { bd:serviceParam wikibase:language "en" }
+?item rdfs:label ?itemLabel.
+        FILTER(LANG(?itemLabel) = 'en')
+
  }
-LIMIT 50
 
 - Party's Origin of Prime Ministers in cronological order:
 
