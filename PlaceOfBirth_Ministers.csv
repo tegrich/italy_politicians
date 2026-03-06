@@ -1,0 +1,285 @@
+| object                                   | Place of Birth           | eff |
+| ---------------------------------------- | ------------------------ | --- |
+| http://www.wikidata.org/entity/Q220      | Rome                     | 67  |
+| http://www.wikidata.org/entity/Q490      | Milan                    | 31  |
+| http://www.wikidata.org/entity/Q2634     | Naples                   | 22  |
+| http://www.wikidata.org/entity/Q495      | Turin                    | 15  |
+| http://www.wikidata.org/entity/Q1891     | Bologna                  | 12  |
+| http://www.wikidata.org/entity/Q1449     | Genoa                    | 11  |
+| http://www.wikidata.org/entity/Q2656     | Palermo                  | 9   |
+| http://www.wikidata.org/entity/Q617      | Padua                    | 7   |
+| http://www.wikidata.org/entity/Q2044     | Florence                 | 7   |
+| http://www.wikidata.org/entity/Q13386    | Lecce                    | 6   |
+| http://www.wikidata.org/entity/Q2028     | Verona                   | 6   |
+| http://www.wikidata.org/entity/Q3519     | Bari                     | 6   |
+| http://www.wikidata.org/entity/Q5968     | Cuneo                    | 5   |
+| http://www.wikidata.org/entity/Q6285     | Varese                   | 5   |
+| http://www.wikidata.org/entity/Q1308     | Como                     | 5   |
+| http://www.wikidata.org/entity/Q6237     | Lecco                    | 4   |
+| http://www.wikidata.org/entity/Q641      | Venice                   | 4   |
+| http://www.wikidata.org/entity/Q1083     | Salerno                  | 4   |
+| http://www.wikidata.org/entity/Q5475     | Treviso                  | 4   |
+| http://www.wikidata.org/entity/Q628      | Bergamo                  | 4   |
+| http://www.wikidata.org/entity/Q1903     | Catania                  | 4   |
+| http://www.wikidata.org/entity/Q546      | Trieste                  | 4   |
+| http://www.wikidata.org/entity/Q13433    | Avellino                 | 4   |
+| http://www.wikidata.org/entity/Q13666    | Messina                  | 4   |
+| http://www.wikidata.org/entity/Q13629    | Sassari                  | 4   |
+| http://www.wikidata.org/entity/Q6537     | Vicenza                  | 3   |
+| http://www.wikidata.org/entity/Q13362    | Ferrara                  | 3   |
+| http://www.wikidata.org/entity/Q6572     | Rovigo                   | 3   |
+| http://www.wikidata.org/entity/Q13375    | Pisa                     | 3   |
+| http://www.wikidata.org/entity/Q13670    | Syracuse                 | 3   |
+| http://www.wikidata.org/entity/Q13464    | Foggia                   | 3   |
+| http://www.wikidata.org/entity/Q3437     | Perugia                  | 3   |
+| http://www.wikidata.org/entity/Q6221     | Brescia                  | 3   |
+| http://www.wikidata.org/entity/Q1897     | Cagliari                 | 3   |
+| http://www.wikidata.org/entity/Q8471     | Reggio Calabria          | 3   |
+| http://www.wikidata.org/entity/Q8611     | La Spezia                | 3   |
+| http://www.wikidata.org/entity/Q3543     | Potenza                  | 3   |
+| http://www.wikidata.org/entity/Q52153    | Maglie                   | 2   |
+| http://www.wikidata.org/entity/Q13395    | Viterbo                  | 2   |
+| http://www.wikidata.org/entity/Q56196    | Aidone                   | 2   |
+| http://www.wikidata.org/entity/Q3497     | Campobasso               | 2   |
+| http://www.wikidata.org/entity/Q20188    | Mondovì                  | 2   |
+| http://www.wikidata.org/entity/Q3642     | Asmara                   | 2   |
+| http://www.wikidata.org/entity/Q20238    | Morozzo                  | 2   |
+| http://www.wikidata.org/entity/Q19279    | Aversa                   | 2   |
+| http://www.wikidata.org/entity/Q13678    | Agrigento                | 2   |
+| http://www.wikidata.org/entity/Q6274     | Sondrio                  | 2   |
+| http://www.wikidata.org/entity/Q3883     | Catanzaro                | 2   |
+| http://www.wikidata.org/entity/Q20436    | Foligno                  | 2   |
+| http://www.wikidata.org/entity/Q6558     | Belluno                  | 2   |
+| http://www.wikidata.org/entity/Q55893    | Ceppaloni                | 2   |
+| http://www.wikidata.org/entity/Q6259     | Pavia                    | 2   |
+| http://www.wikidata.org/entity/Q72712    | Torre Annunziata         | 2   |
+| http://www.wikidata.org/entity/Q103219   | Pontedera                | 2   |
+| http://www.wikidata.org/entity/Q2683     | Parma                    | 2   |
+| http://www.wikidata.org/entity/Q481730   | Mazara del Vallo         | 2   |
+| http://www.wikidata.org/entity/Q8621     | Terni                    | 2   |
+| http://www.wikidata.org/entity/Q83362    | Recanati                 | 2   |
+| http://www.wikidata.org/entity/Q42975    | Cuggiono                 | 2   |
+| http://www.wikidata.org/entity/Q47224    | Conegliano               | 2   |
+| http://www.wikidata.org/entity/Q111289   | Scandiano                | 2   |
+| http://www.wikidata.org/entity/Q1155     | Busto Arsizio            | 2   |
+| http://www.wikidata.org/entity/Q478741   | Paternò                  | 2   |
+| http://www.wikidata.org/entity/Q101685   | Treviglio                | 2   |
+| http://www.wikidata.org/entity/Q2790     | Udine                    | 2   |
+| http://www.wikidata.org/entity/Q279      | Modena                   | 2   |
+| http://www.wikidata.org/entity/Q52981    | Faenza                   | 2   |
+| http://www.wikidata.org/entity/Q13320    | Savona                   | 2   |
+| http://www.wikidata.org/entity/Q51933    | Lucera                   | 2   |
+| http://www.wikidata.org/entity/Q13360    | Reggio Emilia            | 2   |
+| http://www.wikidata.org/entity/Q40468    | Trichiana                | 2   |
+| http://www.wikidata.org/entity/Q71610    | Afragola                 | 2   |
+| http://www.wikidata.org/entity/Q6761     | Livorno                  | 2   |
+| http://www.wikidata.org/entity/Q478258   | Caltagirone              | 2   |
+| http://www.wikidata.org/entity/Q6662     | Cesena                   | 2   |
+| http://www.wikidata.org/entity/Q6737     | Castellammare di Stabia  | 2   |
+| http://www.wikidata.org/entity/Q13437    | Benevento                | 2   |
+| http://www.wikidata.org/entity/Q13619    | Cosenza                  | 2   |
+| http://www.wikidata.org/entity/Q53853    | Cassano allo Ionio       | 1   |
+| http://www.wikidata.org/entity/Q53365    | Sedegliano               | 1   |
+| http://www.wikidata.org/entity/Q53302    | Palmanova                | 1   |
+| http://www.wikidata.org/entity/Q53299    | Pagnacco                 | 1   |
+| http://www.wikidata.org/entity/Q53241    | Cervignano del Friuli    | 1   |
+| http://www.wikidata.org/entity/Q53190    | Sacile                   | 1   |
+| http://www.wikidata.org/entity/Q52983    | Lugo                     | 1   |
+| http://www.wikidata.org/entity/Q52063    | Anghiari                 | 1   |
+| http://www.wikidata.org/entity/Q52297    | Irsina                   | 1   |
+| http://www.wikidata.org/entity/Q51313    | Vasto                    | 1   |
+| http://www.wikidata.org/entity/Q478240   | Bronte                   | 1   |
+| http://www.wikidata.org/entity/Q478322   | Giarre                   | 1   |
+| http://www.wikidata.org/entity/Q478330   | Grammichele              | 1   |
+| http://www.wikidata.org/entity/Q481544   | Alcamo                   | 1   |
+| http://www.wikidata.org/entity/Q481642   | Castellammare del Golfo  | 1   |
+| http://www.wikidata.org/entity/Q481674   | Castelvetrano            | 1   |
+| http://www.wikidata.org/entity/Q491846   | Ucria                    | 1   |
+| http://www.wikidata.org/entity/Q50087    | Collelongo               | 1   |
+| http://www.wikidata.org/entity/Q50142    | San Pio delle Camere     | 1   |
+| http://www.wikidata.org/entity/Q50195    | Imola                    | 1   |
+| http://www.wikidata.org/entity/Q51197    | Casalincontrada          | 1   |
+| http://www.wikidata.org/entity/Q51238    | Gissi                    | 1   |
+| http://www.wikidata.org/entity/Q52236    | Montignoso               | 1   |
+| http://www.wikidata.org/entity/Q51861    | Ceglie Messapica         | 1   |
+| http://www.wikidata.org/entity/Q51877    | San Pietro Vernotico     | 1   |
+| http://www.wikidata.org/entity/Q51951    | San Giovanni Rotondo     | 1   |
+| http://www.wikidata.org/entity/Q51968    | Volturara Appula         | 1   |
+| http://www.wikidata.org/entity/Q52020    | Martina Franca           | 1   |
+| http://www.wikidata.org/entity/Q58894    | Santa Maria Capua Vetere | 1   |
+| http://www.wikidata.org/entity/Q52089    | Montevarchi              | 1   |
+| http://www.wikidata.org/entity/Q52094    | Pieve Santo Stefano      | 1   |
+| http://www.wikidata.org/entity/Q52136    | Cursi                    | 1   |
+| http://www.wikidata.org/entity/Q52143    | Gallipoli                | 1   |
+| http://www.wikidata.org/entity/Q52233    | Fivizzano                | 1   |
+| http://www.wikidata.org/entity/Q84       | London                   | 1   |
+| http://www.wikidata.org/entity/Q674175   | Kambove                  | 1   |
+| http://www.wikidata.org/entity/Q72293    | Ottaviano                | 1   |
+| http://www.wikidata.org/entity/Q72497    | San Giorgio a Cremano    | 1   |
+| http://www.wikidata.org/entity/Q72585    | Sant'Anastasia           | 1   |
+| http://www.wikidata.org/entity/Q72719    | Torre del Greco          | 1   |
+| http://www.wikidata.org/entity/Q73249    | Apiro                    | 1   |
+| http://www.wikidata.org/entity/Q80661    | Bellosguardo             | 1   |
+| http://www.wikidata.org/entity/Q81049    | Mercato San Severino     | 1   |
+| http://www.wikidata.org/entity/Q81263    | Pagani                   | 1   |
+| http://www.wikidata.org/entity/Q81325    | Piaggine                 | 1   |
+| http://www.wikidata.org/entity/Q81553    | San Mango Piemonte       | 1   |
+| http://www.wikidata.org/entity/Q81728    | Teggiano                 | 1   |
+| http://www.wikidata.org/entity/Q6697     | Empoli                   | 1   |
+| http://www.wikidata.org/entity/Q85       | Cairo                    | 1   |
+| http://www.wikidata.org/entity/Q8598     | Sassuolo                 | 1   |
+| http://www.wikidata.org/entity/Q8645     | Lanciano                 | 1   |
+| http://www.wikidata.org/entity/Q9008     | Avigliana                | 1   |
+| http://www.wikidata.org/entity/Q91464    | Sinalunga                | 1   |
+| http://www.wikidata.org/entity/Q9284     | Cirié                    | 1   |
+| http://www.wikidata.org/entity/Q9409     | Ivrea                    | 1   |
+| http://www.wikidata.org/entity/Q95093    | Bondeno                  | 1   |
+| http://www.wikidata.org/entity/Q95098    | Copparo                  | 1   |
+| http://www.wikidata.org/entity/Q970904   | Dapaong                  | 1   |
+| http://www.wikidata.org/entity/Q99946    | Mercato Saraceno         | 1   |
+| http://www.wikidata.org/entity/Q99956    | Sarsina                  | 1   |
+| http://www.wikidata.org/entity/Q55077    | Paternopoli              | 1   |
+| http://www.wikidata.org/entity/Q54005    | Spezzano Albanese        | 1   |
+| http://www.wikidata.org/entity/Q541405   | Mestre                   | 1   |
+| http://www.wikidata.org/entity/Q54519    | Santa Severina           | 1   |
+| http://www.wikidata.org/entity/Q54620    | Mammola                  | 1   |
+| http://www.wikidata.org/entity/Q54644    | Rosarno                  | 1   |
+| http://www.wikidata.org/entity/Q54727    | Pizzo                    | 1   |
+| http://www.wikidata.org/entity/Q54737    | San Nicola da Crissa     | 1   |
+| http://www.wikidata.org/entity/Q55001    | Atripalda                | 1   |
+| http://www.wikidata.org/entity/Q55012    | Calitri                  | 1   |
+| http://www.wikidata.org/entity/Q55042    | Guardia Lombardi         | 1   |
+| http://www.wikidata.org/entity/Q55057    | Montefalcione            | 1   |
+| http://www.wikidata.org/entity/Q55073    | Nusco                    | 1   |
+| http://www.wikidata.org/entity/Q53910    | Marano Marchesato        | 1   |
+| http://www.wikidata.org/entity/Q58693    | Maddaloni                | 1   |
+| http://www.wikidata.org/entity/Q58719    | Mondragone               | 1   |
+| http://www.wikidata.org/entity/Q40633    | Albiate                  | 1   |
+| http://www.wikidata.org/entity/Q59263    | Monte Vidon Combatte     | 1   |
+| http://www.wikidata.org/entity/Q60       | New York City            | 1   |
+| http://www.wikidata.org/entity/Q6046     | Novara                   | 1   |
+| http://www.wikidata.org/entity/Q6122     | Asti                     | 1   |
+| http://www.wikidata.org/entity/Q6244     | Lodi                     | 1   |
+| http://www.wikidata.org/entity/Q6247     | Mantua                   | 1   |
+| http://www.wikidata.org/entity/Q6252     | Monza                    | 1   |
+| http://www.wikidata.org/entity/Q6606     | Pordenone                | 1   |
+| http://www.wikidata.org/entity/Q6624     | Ascoli Piceno            | 1   |
+| http://www.wikidata.org/entity/Q17686    | Tortona                  | 1   |
+| http://www.wikidata.org/entity/Q13373    | Lucca                    | 1   |
+| http://www.wikidata.org/entity/Q13376    | Pistoia                  | 1   |
+| http://www.wikidata.org/entity/Q13396    | Rieti                    | 1   |
+| http://www.wikidata.org/entity/Q13410    | Latina                   | 1   |
+| http://www.wikidata.org/entity/Q13645    | Tempio Pausania          | 1   |
+| http://www.wikidata.org/entity/Q13649    | Nuoro                    | 1   |
+| http://www.wikidata.org/entity/Q13652    | Oristano                 | 1   |
+| http://www.wikidata.org/entity/Q13674    | Ragusa                   | 1   |
+| http://www.wikidata.org/entity/Q157762   | Cecina                   | 1   |
+| http://www.wikidata.org/entity/Q157824   | Piombino                 | 1   |
+| http://www.wikidata.org/entity/Q159605   | Tivoli                   | 1   |
+| http://www.wikidata.org/entity/Q16006    | Goch                     | 1   |
+| http://www.wikidata.org/entity/Q16268490 | Magreta                  | 1   |
+| http://www.wikidata.org/entity/Q16937    | Muggia                   | 1   |
+| http://www.wikidata.org/entity/Q13369    | Rimini                   | 1   |
+| http://www.wikidata.org/entity/Q180259   | Vejano                   | 1   |
+| http://www.wikidata.org/entity/Q18181    | Valdengo                 | 1   |
+| http://www.wikidata.org/entity/Q18187    | Veglio                   | 1   |
+| http://www.wikidata.org/entity/Q18382    | Bra                      | 1   |
+| http://www.wikidata.org/entity/Q18400    | Alatri                   | 1   |
+| http://www.wikidata.org/entity/Q185619   | Cernusco sul Naviglio    | 1   |
+| http://www.wikidata.org/entity/Q189236   | Velletri                 | 1   |
+| http://www.wikidata.org/entity/Q190963   | Frascati                 | 1   |
+| http://www.wikidata.org/entity/Q19275    | San Severo               | 1   |
+| http://www.wikidata.org/entity/Q19277    | Cerignola                | 1   |
+| http://www.wikidata.org/entity/Q19278    | Bitonto                  | 1   |
+| http://www.wikidata.org/entity/Q19372    | Carrù                    | 1   |
+| http://www.wikidata.org/entity/Q194005   | Augusta                  | 1   |
+| http://www.wikidata.org/entity/Q194081   | Sestri Levante           | 1   |
+| http://www.wikidata.org/entity/Q105155   | Marcheno                 | 1   |
+| http://www.wikidata.org/entity/Q100123   | Calcinate                | 1   |
+| http://www.wikidata.org/entity/Q100829   | Langhirano               | 1   |
+| http://www.wikidata.org/entity/Q101202   | Lovere                   | 1   |
+| http://www.wikidata.org/entity/Q101551   | San Pellegrino Terme     | 1   |
+| http://www.wikidata.org/entity/Q10197    | Pomaretto                | 1   |
+| http://www.wikidata.org/entity/Q102569   | Bettola                  | 1   |
+| http://www.wikidata.org/entity/Q10258    | San Carlo Canavese       | 1   |
+| http://www.wikidata.org/entity/Q103244   | San Miniato              | 1   |
+| http://www.wikidata.org/entity/Q103640   | Breno                    | 1   |
+| http://www.wikidata.org/entity/Q103730   | Calvisano                | 1   |
+| http://www.wikidata.org/entity/Q103840   | Casto                    | 1   |
+| http://www.wikidata.org/entity/Q104565   | Darfo Boario Terme       | 1   |
+| http://www.wikidata.org/entity/Q104963   | Leno                     | 1   |
+| http://www.wikidata.org/entity/Q105070   | Lumezzane                | 1   |
+| http://www.wikidata.org/entity/Q20090    | Garessio                 | 1   |
+| http://www.wikidata.org/entity/Q105256   | Montichiari              | 1   |
+| http://www.wikidata.org/entity/Q105399   | Orzinuovi                | 1   |
+| http://www.wikidata.org/entity/Q10729538 | Gravedona                | 1   |
+| http://www.wikidata.org/entity/Q111144   | Canossa                  | 1   |
+| http://www.wikidata.org/entity/Q116592   | Cassino                  | 1   |
+| http://www.wikidata.org/entity/Q116836   | Filettino                | 1   |
+| http://www.wikidata.org/entity/Q117395   | Supino                   | 1   |
+| http://www.wikidata.org/entity/Q13134    | Pesaro                   | 1   |
+| http://www.wikidata.org/entity/Q13137    | Teramo                   | 1   |
+| http://www.wikidata.org/entity/Q13142    | Fano                     | 1   |
+| http://www.wikidata.org/entity/Q13145    | Fabriano                 | 1   |
+| http://www.wikidata.org/entity/Q13318    | Imperia                  | 1   |
+| http://www.wikidata.org/entity/Q13329    | Piacenza                 | 1   |
+| http://www.wikidata.org/entity/Q42423    | Corsico                  | 1   |
+| http://www.wikidata.org/entity/Q385624   | Cabras                   | 1   |
+| http://www.wikidata.org/entity/Q390280   | Bonorva                  | 1   |
+| http://www.wikidata.org/entity/Q390865   | Ittiri                   | 1   |
+| http://www.wikidata.org/entity/Q3964328  | Solighetto               | 1   |
+| http://www.wikidata.org/entity/Q39971    | Gela                     | 1   |
+| http://www.wikidata.org/entity/Q39981    | Voghera                  | 1   |
+| http://www.wikidata.org/entity/Q40094    | Morbegno                 | 1   |
+| http://www.wikidata.org/entity/Q40195    | Cazzago Brabbia          | 1   |
+| http://www.wikidata.org/entity/Q40202    | Cassano Magnago          | 1   |
+| http://www.wikidata.org/entity/Q100113   | Zocca                    | 1   |
+| http://www.wikidata.org/entity/Q40659    | Villasanta               | 1   |
+| http://www.wikidata.org/entity/Q41023    | Santa Giustina           | 1   |
+| http://www.wikidata.org/entity/Q42288    | Asola                    | 1   |
+| http://www.wikidata.org/entity/Q42338    | Castel d'Ario            | 1   |
+| http://www.wikidata.org/entity/Q38       | Italy                    | 1   |
+| http://www.wikidata.org/entity/Q42459    | Pogliano Milanese        | 1   |
+| http://www.wikidata.org/entity/Q42575    | Inveruno                 | 1   |
+| http://www.wikidata.org/entity/Q42929    | Soresina                 | 1   |
+| http://www.wikidata.org/entity/Q42993    | Gessate                  | 1   |
+| http://www.wikidata.org/entity/Q43039    | San Giorgio su Legnano   | 1   |
+| http://www.wikidata.org/entity/Q43055    | Gorgonzola               | 1   |
+| http://www.wikidata.org/entity/Q43072    | San Giovanni in Croce    | 1   |
+| http://www.wikidata.org/entity/Q46716    | Zenson di Piave          | 1   |
+| http://www.wikidata.org/entity/Q46806    | Montebelluna             | 1   |
+| http://www.wikidata.org/entity/Q47143    | Portogruaro              | 1   |
+| http://www.wikidata.org/entity/Q47251    | Valdagno                 | 1   |
+| http://www.wikidata.org/entity/Q474782   | Innichen                 | 1   |
+| http://www.wikidata.org/entity/Q47578    | Vittorio Veneto          | 1   |
+| http://www.wikidata.org/entity/Q477600   | Mussomeli                | 1   |
+| http://www.wikidata.org/entity/Q268214   | Bordighera               | 1   |
+| http://www.wikidata.org/entity/Q20210    | Monteu Roero             | 1   |
+| http://www.wikidata.org/entity/Q20467    | Marsciano                | 1   |
+| http://www.wikidata.org/entity/Q219330   | Pietrasanta              | 1   |
+| http://www.wikidata.org/entity/Q22111    | Borgomanero              | 1   |
+| http://www.wikidata.org/entity/Q221193   | Seravezza                | 1   |
+| http://www.wikidata.org/entity/Q221377   | Viareggio                | 1   |
+| http://www.wikidata.org/entity/Q224300   | Poggio Bustone           | 1   |
+| http://www.wikidata.org/entity/Q22454    | Gattico                  | 1   |
+| http://www.wikidata.org/entity/Q235163   | Cefalù                   | 1   |
+| http://www.wikidata.org/entity/Q2456297  | Giuncarico               | 1   |
+| http://www.wikidata.org/entity/Q246524   | Borgo Valsugana          | 1   |
+| http://www.wikidata.org/entity/Q263382   | Colli a Volturno         | 1   |
+| http://www.wikidata.org/entity/Q263647   | Kirchbichl               | 1   |
+| http://www.wikidata.org/entity/Q266941   | Chiavari                 | 1   |
+| http://www.wikidata.org/entity/Q477744   | San Cataldo              | 1   |
+| http://www.wikidata.org/entity/Q270737   | Finale Ligure            | 1   |
+| http://www.wikidata.org/entity/Q271350   | Vado Ligure              | 1   |
+| http://www.wikidata.org/entity/Q277822   | Montenero di Bisaccia    | 1   |
+| http://www.wikidata.org/entity/Q278395   | Ururi                    | 1   |
+| http://www.wikidata.org/entity/Q279373   | Rovereto                 | 1   |
+| http://www.wikidata.org/entity/Q29352    | Castelfranco Veneto      | 1   |
+| http://www.wikidata.org/entity/Q294729   | Bitti                    | 1   |
+| http://www.wikidata.org/entity/Q298712   | Pieve Tesino             | 1   |
+| http://www.wikidata.org/entity/Q3376     | Trento                   | 1   |
+| http://www.wikidata.org/entity/Q340757   | La Maddalena             | 1   |
+| http://www.wikidata.org/entity/Q34102    | Modica                   | 1   |
+| http://www.wikidata.org/entity/Q3415     | Ancona                   | 1   |
+| http://www.wikidata.org/entity/Q372261   | Ravanusa                 | 1   |
+|                                          |                          |     |
