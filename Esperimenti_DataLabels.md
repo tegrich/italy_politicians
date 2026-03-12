@@ -88,9 +88,9 @@ WHERE
         ?item wdt:P31 wd:Q5; 
               wdt:P569 ?birthDate.
       
-           ?item p:P39 ?statement .
-  ?statement ps:P39 ?carica .
-  ?carica wdt:P279* wd:Q3858501 . 
+            ?item p:P39 ?statement .
+    ?statement ps:P39 ?carica .
+    ?carica wdt:P279* wd:Q3858501 . 
             }
         } 
 	
