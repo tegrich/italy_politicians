@@ -1,2 +1,6 @@
 *.html
 *.gexf
+*.csv
+*.pkl
+*.graphml
+*.html
