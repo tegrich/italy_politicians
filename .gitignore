@@ -1,6 +1,5 @@
 
 *.gexf
-*.csv
 *.pkl
 *.graphml
 
