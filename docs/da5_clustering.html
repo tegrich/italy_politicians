@@ -1,0 +1,497 @@
+<html>
+<body>
+<h2>Cluster Analysis</h2>
+
+
+<p>The last step that can be done in this analysis is tracing if there are some interesting profiles that could allign with the rise of female from right/centre-right that has previously emerged.<br>
+
+    In order to do so two clustering methods can be used: K-modes that through an algorythm creates the most probable profiles based on the centre, the most frequent category, and then succession of properties with less differences. And k-means that through an algorythm creates groups based on centroids, and starting with that converges the other individuals with the closest properties.
+
+    <h3>K-Modes Clustering</h3>
+    <div style="overflow-x: auto; margin: 20px 0; font-family: sans-serif;">
+   <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>label</th>
+      <th>number_in_cl</th>
+      <th>n_centroid</th>
+      <th>number_f</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0_maschio_Sud_mancante_Sinistra/Centro Sinistra</td>
+      <td>48</td>
+      <td>19</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1_maschio_Centro_professore_Centro</td>
+      <td>39</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2_maschio_Sud_giurista_indipendente</td>
+      <td>22</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3_femmina_Centro_mancante_Sinistra/Centro Sinistra</td>
+      <td>9</td>
+      <td>3</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>4_maschio_Nord_mancante_Sinistra/Centro Sinistra</td>
+      <td>56</td>
+      <td>18</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>5_femmina_Sud_mancante_Centro</td>
+      <td>6</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>6_maschio_Sud_mancante_Centro</td>
+      <td>47</td>
+      <td>31</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>7_maschio_Nord_mancante_Destra/Centro Destra</td>
+      <td>50</td>
+      <td>19</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>8_maschio_Nord_imprenditore_Destra/Centro Destra</td>
+      <td>10</td>
+      <td>6</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>9_maschio_Nord_avvocato_Centro</td>
+      <td>37</td>
+      <td>13</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10_maschio_Nord_mancante_Centro</td>
+      <td>40</td>
+      <td>40</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>11_femmina_Nord_mancante_Centro</td>
+      <td>5</td>
+      <td>2</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>12_maschio_Centro_mancante_Centro</td>
+      <td>18</td>
+      <td>18</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>13_maschio_Sud_avvocato_Centro</td>
+      <td>17</td>
+      <td>17</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>14_maschio_Nord_professore_Centro</td>
+      <td>8</td>
+      <td>8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>15_maschio_Nord_imprenditore_indipendente</td>
+      <td>10</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>16_maschio_Nord_economista_indipendente</td>
+      <td>14</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>17_maschio_Sud_professore_Sinistra/Centro Sinistra</td>
+      <td>8</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>18_maschio_Nord_professore_indipendente</td>
+      <td>11</td>
+      <td>8</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>19_femmina_Centro_mancante_indipendente</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>20_femmina_Sud_avvocato_Destra/Centro Destra</td>
+      <td>9</td>
+      <td>2</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>21_maschio_Nord_avvocato_Sinistra/Centro Sinistra</td>
+      <td>13</td>
+      <td>10</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>22_maschio_Centro_giornalista_Sinistra/Centro Sinistra</td>
+      <td>29</td>
+      <td>15</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>23_maschio_Sud_avvocato_Destra/Centro Destra</td>
+      <td>15</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>24_maschio_Centro_avvocato_Centro</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>25_maschio_Centro_economista_Sinistra/Centro Sinistra</td>
+      <td>5</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>26_maschio_Centro_mancante_Sinistra/Centro Sinistra</td>
+      <td>9</td>
+      <td>9</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>27_maschio_Nord_giurista_indipendente</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>28_maschio_Centro_medico_indipendente</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>29_femmina_Nord_mancante_Sinistra/Centro Sinistra</td>
+      <td>10</td>
+      <td>5</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>30_maschio_Centro_giurista_Sinistra/Centro Sinistra</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>31_maschio_Nord_mancante_indipendente</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>K-Modes Clusters</h3>
+    <img src="./images/kmodes_clusters_4_variables_44cl.png"<br>
+
+<h3>Heatmap</h3>
+    <img src="./images/k-modes_heatmap.png"<br>
+
+    Starting from k-modes the results are not easy to interpret, because the four clusters that slighlty increased in the last period, number 3,5,11,20, have all female invidiuals as majority, but the numbers perse are too small to be completely relevant to the total of the population.<br>
+   
+  <h3>K-Means Clustering</h3>
+
+  <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>label</th>
+      <th>number_in_cl</th>
+      <th>number_centroid</th>
+      <th>number_f</th>
+      <th>prop_f</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0_maschio_Sud_mancante_Sinistra/Centro Sinistra</td>
+      <td>31</td>
+      <td>19</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>1_maschio_Nord_mancante_Centro</td>
+      <td>61</td>
+      <td>40</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>2_maschio_Nord_economista_indipendente</td>
+      <td>17</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>3_maschio_Centro_mancante_Sinistra/Centro Sinistra</td>
+      <td>14</td>
+      <td>9</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>4_maschio_Centro_scrittore_Centro</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>5_maschio_Nord_ingegnere_Sinistra/Centro Sinistra</td>
+      <td>11</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>6_maschio_Sud_storico_Centro</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>7_femmina_Nord_mancante_Destra/Centro Destra</td>
+      <td>11</td>
+      <td>4</td>
+      <td>11</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>8_maschio_Nord_partigiano_Sinistra/Centro Sinistra</td>
+      <td>17</td>
+      <td>8</td>
+      <td>1</td>
+      <td>0.06</td>
+    </tr>
+    <tr>
+      <td>9_maschio_Nord_sindacalista_Sinistra/Centro Sinistra</td>
+      <td>10</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.10</td>
+    </tr>
+    <tr>
+      <td>10_femmina_Sud_mancante_Centro</td>
+      <td>31</td>
+      <td>4</td>
+      <td>31</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <td>11_maschio_Sud_giudice_Centro</td>
+      <td>8</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.12</td>
+    </tr>
+    <tr>
+      <td>12_maschio_Centro_giornalista_Sinistra/Centro Sinistra</td>
+      <td>25</td>
+      <td>15</td>
+      <td>1</td>
+      <td>0.04</td>
+    </tr>
+    <tr>
+      <td>13_maschio_Nord_diplomatico_Centro</td>
+      <td>13</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.08</td>
+    </tr>
+    <tr>
+      <td>14_maschio_Sud_ministro_Centro</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>15_maschio_Nord_accademico_Sinistra/Centro Sinistra</td>
+      <td>6</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0.33</td>
+    </tr>
+    <tr>
+      <td>16_maschio_Nord_professore_indipendente</td>
+      <td>18</td>
+      <td>8</td>
+      <td>3</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <td>17_maschio_Sud_giurista_indipendente</td>
+      <td>7</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0.14</td>
+    </tr>
+    <tr>
+      <td>18_maschio_Sud_ufficiale_indipendente</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>19_maschio_Nord_mancante_Destra/Centro Destra</td>
+      <td>37</td>
+      <td>19</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>20_maschio_Sud_mancante_Centro</td>
+      <td>39</td>
+      <td>31</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>21_maschio_Nord_imprenditore_Destra/Centro Destra</td>
+      <td>16</td>
+      <td>6</td>
+      <td>4</td>
+      <td>0.25</td>
+    </tr>
+    <tr>
+      <td>22_maschio_Nord_mancante_Sinistra/Centro Sinistra</td>
+      <td>35</td>
+      <td>18</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>23_maschio_Sud_giornalista_indipendente</td>
+      <td>5</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>24_maschio_Centro_mancante_Centro</td>
+      <td>27</td>
+      <td>18</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>25_maschio_Sud_avvocato_Centro</td>
+      <td>27</td>
+      <td>17</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>26_maschio_Nord_economista_Sinistra/Centro Sinistra</td>
+      <td>20</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>27_maschio_Centro_altro_Sinistra/Centro Sinistra</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.17</td>
+    </tr>
+    <tr>
+      <td>28_maschio_Sud_funzionario_Sinistra/Centro Sinistra</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>29_maschio_Nord_giurista_Sinistra/Centro Sinistra</td>
+      <td>11</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0.09</td>
+    </tr>
+    <tr>
+      <td>30_maschio_Centro_giornalista_Centro</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>31_maschio_Nord_medico_Destra/Centro Destra</td>
+      <td>16</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3>K-Means Clusters</h3>
+
+<img src="./images/kmeans_ACM_clusters_4_variables_64cl.png"<br>
+
+  <h3>Heatmap</h3>
+
+  <img src="./images/cluster_k-clears.png"<br>
+
+  
+    While on the k-means, the clusters that have seen a major increase in the last decades are number 7 and 10, both of them with majority of female individuals, were number 7 are from Right/Centre-Right wing, while from Centre wing for number 10.<br>
+
+    What can be of interest is that the four picked clusters in k-modes there's always a different coded_Region of provenience, while in k-means the two clusters present South and Centre; while in all of them the main occupation is missing, meaning that if they had a previous job experience before becoming a politician, it was not stated in wikidata.<br>
+
+
+    <h3>Conclusion</h3>
+
+    In conclusion a last comparison with reality can be done. If a profiles of rising female individuals can not be traced it's still interesting to see that the increase of women partecipation into the governements it's something that has more involved the previous two governements more than the current's one:<br>
+    
+
+  <a href="https://www.governo.it/it/ministri-e-sottosegretari" target="_blank">Meloni I</a>: Giorgia Meloni (Fratelli d'Italia), Eugenia Maria Roccella (Fratelli d'Italia), Maria Elisabetta Alberti Casellati (Forza Italia), Alessandra Locatelli (Lega per Salvini Premier), Marina Elvira Calderone (Indipendente), Anna Maria Bernini (Forza Italia).<br>
+
+  <a href="https://www.governo.it/it/i-governi-dal-1943-ad-oggi/xviii-legislatura-dal-23-marzo-2018/governo-draghi/16211" target="_blank">Draghi I:</a> Mariastella Gelmini (Azione), Maria Rosaria Carfagna (Azione), Fabiana Dadone (Movimento 5 Stelle), ELena Bonetti (Italia Viva), Erika Stefani (Lega per Salvini Premier), Luciana Lamorgese (Indipendente), Marta Cartabia (Indipendente), Maria Cristina Messa (Indipendente).<br>
+
+  <a href="https://www.governo.it/it/i-governi-dal-1943-ad-oggi/xviii-legislatura-dal-23-marzo-2018/governo-conte-ii/12715" target="_blank">Conte II</a>: Paola Pisano (Movimento 5 Stelle), Fabiana Dadone (Movimento 5 Stelle), Elena Bonetti (Italia Viva), Luciana Lamorgese (Indipendente), Teresa Bellanova (Italia Viva), Paola De Micheli (Partito Democratico), Nunzia Catalfo (Movimento 5 Stelle), Lucia Azzolina (Movimento 5 Stelle).<br>
+
+
+    Hence a correlation between the information from wikidata and reality can be seen, but because of the quality of these data and the small number of individuals, for a more in-depth analysis, a more complete source of information is needed. 
+
+
+
+</p>
+</body>
+</html>
